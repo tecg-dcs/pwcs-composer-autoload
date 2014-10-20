@@ -1,5 +1,5 @@
 <?php namespace Acme;
 
-class maClasse{
+class MaClasse{
 
 }

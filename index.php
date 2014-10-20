@@ -1,4 +1,4 @@
 <?php
-    use Acme\maClasse as maClasse;
+    use Acme\MaClasse as MaClasse;
     require 'vendor/autoload.php';
-    echo get_class(new maClasse());
+    echo get_class(new MaClasse());
