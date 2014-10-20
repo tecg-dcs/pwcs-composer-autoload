@@ -1,0 +1,15 @@
+{
+    "name": "dominique/testcomposer",
+    "authors": [
+        {
+            "name": "Dominique Vilain",
+            "email": "domi@domy.be"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Acme\\": "classes/"
+        }
+    }
+}
