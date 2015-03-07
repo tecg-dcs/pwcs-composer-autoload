@@ -13,7 +13,7 @@ namespace Acme;
 - dans notre fichier index.php, nous devons importer la classe. Mais nous ne le faisons pas en incluant le fichier qui la contient. Au lieu de ça, nous l’importons en fonction de l’espace de noms dans lequel elle est définie : `use Acme\MaClasse;`. C’est composer qui fera la traduction entre l’espace de noms `Acme` et le dossier `classes` ;
 - dans le fichier `composer.json`, nous définissons le mapping entre l’espace de noms et le dossier. Nous ajoutons une clé dans l’objet qui décrit notre projet composer : 
 ```php 
-"autoloading": { "psr-4": { "Acme\\": "classes/" }}
+"autoload": { "psr-4": { "Acme\\": "classes/" }}
 ```
 - une fois le fichier composer.json mis à jour, on demande à composer de mettre à jour le fichier php qui contient les directives qui font véritablement l’autoload : 
 ```php
