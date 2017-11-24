@@ -1,4 +1,4 @@
-#Autoloading PSR-4 avec Composer
+# Autoloading PSR-4 avec Composer
 
 Ce fichier est un petit squelette minimal pour montrer l’autoloading par composer selon la norme psr-4
 
