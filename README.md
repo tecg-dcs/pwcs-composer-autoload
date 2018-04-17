@@ -2,7 +2,7 @@
 
 Ce fichier est un petit squelette minimal pour montrer l’autoloading par composer selon la norme psr-4
 
-- Dans le fichier `index.php`, situé à la racine du projet, on veut écrire le nom de la classe dont relève une instance :
+- Imaginons que dans le fichier `index.php`, situé à la racine du projet, nous voulions écrire le nom de la classe dont est issue une instance :
 ```php
 echo get_class(new MaClasse());
 ```
